@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://content.jdmagicbox.com/v2/comp/vijayawada/q3/0866px866.x866.230908200247.q3q3/catalogue/krishna-university-vijayawada-colleges-z3rrj9e3hh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+.link{
+    font-size: 25px;
+    margin: 20px;
+    background-color: rgb(179, 26, 143);
+    width: 150px;
+    border-radius: 15px;
+    padding:15px;
+}
+.link a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.link span{
+    color:white;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    box-shadow: 5px 5px 15px red;
+    margin: 20px auto;
+    background: radial-gradient(rgb(236, 118, 137), rgb(135, 240, 240), rgb(208, 237, 122));
+    border-radius: 30px;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container hr{
+    margin-bottom: 10px;
+}
+.container .boxes input{
+    height: 50px;
+    width: 360px;
+    margin: 10px 20px;
+    border-right: 10px solid orange;
+    border-top: 5px solid rgb(213, 173, 99);
+    
+}
+
+.container .boxes input::placeholder{
+    font-size: 18px;
+    color: darkgrey;
+    text-align: center;
+}
+.container .button input{
+    height: 50px;
+    width: 360px;
+    margin: 10px 20px;
+    background: linear-gradient(250deg, rgb(230, 122, 179), rgb(152, 226, 118), rgb(141, 179, 233));
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.container h1:hover{
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px gold;
+    color: white;
+}
+.container .boxes input:hover{
+   box-shadow: 5px 5px 10px gold;
+   border-radius: 0px 25px 0px 25px;
+    
+}
+.container .boxes textarea:hover{
+    box-shadow: 5px 5px 10px gold;
+}
+.container .button input:hover{
+    height: 50px;
+    width: 300px;
+    margin: 10px 45px;
+    background: linear-gradient(30deg, rgb(179, 66, 21), rgb(4, 145, 56), rgb(115, 115, 225));
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
